@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BiblioUNFV - Después</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="topbar">
+    <h2>BiblioUNFV</h2>
+    <nav aria-label="Menú principal">
+      <a href="#">Inicio</a>
+      <a href="#">Catálogo</a>
+      <a href="#">Reservas</a>
+      <a href="#">Accesibilidad</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" aria-labelledby="titulo">
+    <h1 id="titulo">Biblioteca Virtual </h1>
+    <p>Diseñada para estudiantes con discapacidad visual y compatible con lectores de pantalla.</p>
+
+    <label for="buscar" style="display:block;font-weight:bold;margin-bottom:8px">Buscar libro</label>
+    <input id="buscar" class="search" type="text" placeholder="Escribe el título o autor">
+  </section>
+
+  <section class="container" aria-labelledby="destacados">
+    <h2 id="destacados">Libros destacados</h2>
+
+    <div class="grid">
+      <article class="card">
+        <img src="imagenes/donquijote.jpg" alt="Portada del libro Don Quijote de la Mancha">
+        <div class="content">
+          <h3>Don Quijote de la Mancha</h3>
+          <p>Miguel de Cervantes</p>
+          <button aria-label="Reservar Don Quijote de la Mancha">Reservar libro</button>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="imagenes/odisea.jpg" alt="Portada del libro La Odisea">
+        <div class="content">
+          <h3>La Odisea</h3>
+          <p>Homero</p>
+          <button aria-label="Reservar La Odisea">Reservar libro</button>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="imagenes/iliada.jpg" alt="Portada del libro La Ilíada">
+        <div class="content">
+          <h3>La Ilíada</h3>
+          <p>Homero</p>
+          <button aria-label="Reservar La Ilíada">Reservar libro</button>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="imagenes/frankenstein.jpg" alt="Portada del libro Frankenstein">
+        <div class="content">
+          <h3>Frankenstein</h3>
+          <p>Mary Shelley</p>
+          <button aria-label="Reservar Frankenstein">Reservar libro</button>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p><strong>Biblioteca Virtual BiblioUNFV</strong></p>
+  <p>Contacto: biblioteca@bibliounfv.edu</p>
+  <p>Comprometidos con la accesibilidad y la inclusión.</p>
+</footer>
+
+</body>
+</html>
